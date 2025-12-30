@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- --------------------------------------------------------- -->
+    <link
+      rel="icon"
+      type="imag/png"
+      sizes="32x32"
+      href="favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicon/favicon-16x16.png"
+    />
+    <!-- --------------------------------------------------------- -->
+    <!-- --------------------------------------------------------- -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- --------------------------------------------------------- -->
+    <!-- --------------------------------------------------------- -->
+    <title>Company Example</title>
+  </head>
+  <body>
+    <!-- --------------------------------------------- -->
+    <!-- --------------------Header------------------- -->
+    <!-- --------------------------------------------- -->
+    <header>
+      <div class="container header-inner">
+        <div class="nav-left">
+          <a href="#home">Home</a>
+          <a href="#about">About us</a>
+          <a href="#team">Our team</a>
+          <a href="#schedule">Schedule</a>
+          <a href="#contacts">Contacts</a>
+        </div>
+        <!-- --------------------------------------------- -->
+        <!-- --------------------Buger-------------------- -->
+        <!-- --------------------------------------------- -->
+        <button class="burger" id="burgerBtn">☰ Menu</button>
+        <!-- --------------------------------------------- -->
+        <div class="nav-right">
+          <div class="flags">
+            <button class="flag-btn gotoeg" title="English language">
+              <span><img src="Photos/united-kingdom.png" alt="English" /></span>
+            </button>
+            <button class="flag-btn gotocz" title="Czech language">
+              <span><img src="Photos/czech-republic.png" alt="Czech" /></span>
+            </button>
+            <button class="flag-btn gotoua" title="Ukrainian language">
+              <span><img src="Photos/ukraine.png" alt="Ukrainian" /></span>
+            </button>
+          </div>
+          <button class="lang-trigger" id="langBtn">🌐 Languages</button>
+        </div>
+      </div>
+      <!-- ----------------------------- -->
+      <!--------- MOBILEEEEEEe --------- -->
+      <!-- ----------------------------- -->
+
+      <div class="mobile-panels container">
+        <nav class="panel" id="navPanel">
+          <ul>
+            <li><a href="#home" class="mobile-link">Home</a></li>
+            <li><a href="#about" class="mobile-link">About us</a></li>
+            <li><a href="#team" class="mobile-link">Our team</a></li>
+            <li><a href="#schedule" class="mobile-link">Schedule</a></li>
+            <li><a href="#contacts" class="mobile-link">Contacts</a></li>
+          </ul>
+        </nav>
+        <nav class="panel" id="langPanel">
+          <ul>
+            <li><a href="#" class="lang-link"><img class="burgerimage" src="Photos/united-kingdom.png" alt="English">English</a></li>
+            <li><a href="#" class="lang-link"><img class="burgerimage" src="Photos/czech-republic.png" alt="Czech">Čeština</a></li>
+            <li><a href="#" class="lang-link"><img class="burgerimage" src="Photos/ukraine.png" alt="Ukrainian">Українська</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- --------------------------------------------- -->
+      <!-- -----------2:Full-screen_container----------- -->
+      <!-- --------------------------------------------- -->
+      <span id="home" class="anchor-offset"></span>
+      <section class="hero section">
+        <div class="container hero-inner">
+          <div class="hero-logo">
+            <img src="Photos/bright-circular logo.png" alt="Logo" />
+          </div>
+          <div class="hero-content">
+            <h1>Welcome to MARKETHUB</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
+              natus molestiae corporis quidem, repudiandae excepturi vitae ipsam
+            </p>
+            <div class="hero-actions">
+              <button class="btn">Learn more</button>
+              <a href="#contacts">
+                <button class="btn btn-secondary">Contact us</button></a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- --------------------------------------------- -->
+      <!-- -----------------3:About-us------------------ -->
+      <!-- --------------------------------------------- -->
+      <span id="about" class="anchor-offset"></span>
+      <section class="about section">
+        <div class="container">
+          <div class="about-card">
+            <h2>About us</h2>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime
+              asperiores sed necessitatibus dolorem dolores incidunt animi
+              magnam commodi tempora illum labore, eos, distinctio laborum quos
+              esse laboriosam quidem rerum quod?
+            </p>
+            <div class="about-cta">
+              <a href="#schedule" class="mobile-link">
+                <button class="btn">Program</button></a
+              >
+              <a href="#socialmedia">
+                <button class="btn btn-secondary">Our social media</button></a
+              >
+            </div>
+            <div class="quote">
+              “Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
+              placeat modi quos hic perspiciatis consequatur, et qui? Eius,
+              corporis impedit” — John Doe
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- --------------------------------------------- -->
+      <!-- -----------------4:Our-team------------------ -->
+      <!-- --------------------------------------------- -->
+      <span id="team" class="anchor-offset"></span>
+      <section class="section">
+        <div class="container">
+          <h2 class="ourteamtxt">Our team</h2>
+          <p style="color: #555; margin: 0 18px 18px">Here is our workers</p>
+          <div class="team-grid">
+            <div class="member">
+              <img src="Photos/avatar2.png" alt="Dawn Casey" />
+              <h4>Dawn Casey</h4>
+              <p>Shop assistant</p>
+            </div>
+            <div class="member">
+              <img src="Photos/avatar1.png" alt="Melissa Ruiz" />
+              <h4>Melissa Ruiz</h4>
+              <p>Manager</p>
+            </div>
+            <div class="member">
+              <img src="Photos/avatar3.png" alt="Cary Stone" />
+              <h4>Cary Stone</h4>
+              <p>Manager</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- --------------------------------------------- -->
+      <!-- -----------------5:Shedule------------------- -->
+      <!-- --------------------------------------------- -->
+      <span id="schedule" class="anchor-offset"></span>
+      <section class="section">
+        <div class="container schedule-grid">
+          <div class="hours">
+            <h3>Opening hours</h3>
+            <ul>
+              <li><span>Monday</span><span>10:00–18:00</span></li>
+              <li><span>Tuesday</span><span>10:00–18:00</span></li>
+              <li><span>Wednesday</span><span>12:00–20:00</span></li>
+              <li><span>Thursday</span><span>10:00–18:00</span></li>
+              <li><span>Friday</span><span>10:00–16:00</span></li>
+              <li><span>Saturday</span><span>Closed</span></li>
+              <li><span>Sunday</span><span>Closed</span></li>
+            </ul>
+          </div>
+          <div class="event">
+            <h3>Event</h3>
+            <div class="label">What about:</div>
+            <p>Community meetup and Q&A</p>
+            <div class="label">When:</div>
+            <p>21/12/2025, Thursday - 18:30</p>
+            <div class="label">Description:</div>
+            <p>
+              Join us for a friendly evening Lorem ipsum dolor, sit amet
+              consectetur adipisicing elit. Iusto, consequatur vero placeat nam
+              recusandae quia quod voluptas illum neque ab culpa. Libero magnam
+              ab excepturi eius obcaecati minus voluptate hic?
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- --------------------------------------------- -->
+      <!-- -----------------6:Contacts------------------ -->
+      <!-- --------------------------------------------- -->
+      <span id="contacts" class="anchor-offset"></span>
+      <section class="section">
+        <div class="container contacts-grid">
+          <div class="contact-box">
+            <h3>Contacts & address</h3>
+            <div class="contact-item">
+              <strong>Phone:</strong> +420 123 456 789
+            </div>
+            <div class="contact-item">
+              <strong>Email:</strong> info@markethub.cz
+            </div>
+            <div class="contact-item">
+              <strong>Address:</strong> Náměstí 1, České Budějovice, Czechia
+            </div>
+          </div>
+          <div class="map-box">
+            <iframe
+              title="Map"
+              src="https://www.openstreetmap.org/export/embed.html?bbox=14.460%2C48.970%2C14.500%2C49.000&amp;layer=mapnik"
+              allowfullscreen
+              loading="lazy"
+            >
+            </iframe>
+          </div>
+        </div>
+      </section>
+      <!-- --------------------------------------------- -->
+      <!-- -----------------7:Social------------------- -->
+      <!-- --------------------------------------------- -->
+      <section id="socialmedia" class="section social">
+        <div class="container social-inner">
+          <h2 class="socialtxt">Follow us on social media!</h2>
+          <div class="social-logos">
+            <a
+              href="https://www.youtube.com/"
+              class="social-btn"
+              title="YouTube"
+              ><img src="Photos/youtube.png" alt="YouTube"
+            /></a>
+            <a
+              href="https://www.instagram.com/"
+              class="social-btn"
+              title="Instagram"
+              ><img src="Photos/instagram.png" alt="Instagram"
+            /></a>
+            <a
+              href="https://www.facebook.com/"
+              class="social-btn"
+              title="Facebook"
+              ><img src="Photos/facebook.png" alt="Facebook"
+            /></a>
+            <a
+              href="https://www.linkedin.com/"
+              class="social-btn"
+              title="LinkedIn"
+              ><img src="Photos/linkedin.png" alt="LinkedIn"
+            /></a>
+            <a
+              href="https://www.tiktok.com/en/"
+              class="social-btn"
+              title="TikTok"
+              ><img src="Photos/tiktok.png" alt="TikTok"
+            /></a>
+          </div>
+        </div>
+      </section>
+      <!-- --------------------------------------------- -->
+      <!-- -----------------8:Footer------------------- -->
+      <!-- --------------------------------------------- -->
+      <footer>
+        <div class="container footer-inner">
+          <div class="footer-left">
+            <div class="footer-logo"><img src="Photos/bright-circular logo.png" alt=""></div>
+            <a href="#" target="_blank" rel="noopener"><span class="footertxt">markethub.cz</span></a>
+          </div>
+          <div class="footer-right footertxt">Web created by: Illia Tarabarov</div>
+        </div>
+      </footer>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
