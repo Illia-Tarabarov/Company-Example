@@ -33,14 +33,14 @@ document.addEventListener("click", (e) => {
 });
 // ------------------------------------------------------------
 document.querySelector(".btn").addEventListener("click", function () {
-  window.open("https://github.com/Illia-Tarabarov", "_blank");
+  window.location.href("https://github.com/Illia-Tarabarov", "_blank");
 });
 document.querySelector(".gotoeg").addEventListener("click", function () {
-  window.open("index.html", "_blank");
+  window.location.href = "index.html";
 });
 document.querySelector(".gotocz").addEventListener("click", function () {
-  window.open("czech.html", "_blank");
+  window.location.href = "czech.html";
 });
 document.querySelector(".gotoua").addEventListener("click", function () {
-  window.open("ukrainian.html", "_blank");
+  window.location.href = "ukrainian.html";
 });
